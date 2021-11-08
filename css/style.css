@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Andada Pro', serif !important;
+}
+
+header {
+    background-color: rgb(45, 139, 222) !important;
+}
+
+header nav {
+    border-bottom: 1px solid rgb(255, 255, 255) !important;
+    border-top: 1px solid #ffffff !important;
+}
+
+
+/* umumi css */
+.margin_top{
+    margin-top: 70px !important;
+}
+.border_bottom {
+    border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+
+.bg_dark {
+    background: rgba(11, 11, 12, 0.788) !important;
+}
+
+.bg_light {
+    background-color: rgb(70, 77, 255) !important;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff !important;
+}
+
+#home img {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+/***********************Navbar*************************************/
+
+.nav-link {
+    font-size: 17px;
+    margin-left: 29px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 2px !important;
+    padding: 0;
+    font-family: 'Andada Pro', serif !important;
+}
+
+.dropdown-menu {
+    width: 170px !important;
+    border: 0 !important;
+    border-radius: 0px !important;
+    background: rgba(25, 91, 234, 0.596) !important;
+    animation-name: atthover;
+    animation-duration: 1s;
+    animation-iteration-count: finite;
+}
+
+.dropdown:hover {
+    animation-play-state: running;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-item{
+    color: #fff !important;
+
+}
+.dropdown-item:hover {
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.dropdown_menu_translate {
+    width: 100px !important;
+}
+
+@keyframes atthover {
+    0% {
+        opacity: 0;
+        margin-top: 30px;
+    }
+    50% {
+        opacity: 1;
+        margin-top: 30px;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+nav.sticky {
+    transition: .5s ease-in-out;
+    padding: 5px 0;
+    background: #0277f4;
+    border-bottom: 2px solid #0275d8;
+}
+
+.nav-link:hover {
+    background: rgba(253, 253, 253, 0.521);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* ***********************************************About Part**************************************************** */
+
+.img {
+    width: 600px;
+    height: 400px;
+}
+
+.text span {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.text p {
+    font-size: 23px;
+}
+
+.about {
+    padding-top: 70px;
+}
+
+
+/* ======================Help Part====================== */
+
+.bord {
+    border: 1px solid #0b0bec;
+    border-radius: 5px;
+}
+
+
+/*********************************Contact Part**************************** */
+
+.ust {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icons {
+    color: rgb(17, 211, 211);
+}
+
+.cont {
+    margin-bottom: 100px;
+}
+
+.address {
+    font-family: 'Andada Pro', serif !important;
+}
+
+.address i {
+    font-size: 20px;
+}
+
+.head {
+    font-size: 18px;
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+}
+
+.sub {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+div.icon i {
+    font-size: 15px;
+}

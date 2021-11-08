@@ -1,0 +1,83 @@
+        @media only screen and (max-width:1024px) {
+            div.dropdown-menu {
+                width: 0px;
+                margin-left: 50px;
+                margin-bottom: 20px;
+            }
+        }
+        /*===================================About Part========================================*/
+        
+        @media only screen and (max-width:707px) {
+            .img {
+                width: 500px;
+                height: 300px;
+            }
+            .text span {
+                font-size: 16px;
+                margin-bottom: 5px;
+            }
+            .text p {
+                font-size: 20px;
+                margin-bottom: 60px;
+            }
+        }
+        
+        @media only screen and (max-width:531px) {
+            .img {
+                width: 400px;
+                height: 250px;
+            }
+            .text span {
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+            .text p {
+                font-size: 16px;
+                margin-bottom: 60px;
+            }
+        }
+        
+        @media only screen and (max-width:431px) {
+            .img {
+                width: 240px;
+                height: 150px;
+            }
+            .text span {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+            .text p {
+                font-size: 13px;
+                margin-bottom: 60px;
+            }
+        }
+        /* =========================Footer=============================== */
+        
+        @media only screen and (max-width:625px) {
+            .orta2 {
+                font-size: 10px !important;
+            }
+            .orta1 {
+                font-size: 10px !important;
+                margin-left: 0px !important;
+            }
+        }
+        
+        @media only screen and (max-width:340px) {
+            .orta2 {
+                margin-right: 20px;
+            }
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .footer-col {
+                justify-content: left;
+            }
+        }
+        
+        @media only screen and (max-width:1170px) {
+            .logo_img {
+                margin-left: -40px;
+            }
+        }
+        /* =======================Team Responsiv================================= */

@@ -1,0 +1,100 @@
+let data = [{
+
+name: "Azərbaycanın Türkiyədəki səfirliyi Məhəmməd Əmin Rəsulzadənin məzarını ziyarət etdi",
+id: 1,
+img: "img/xeber3.jpg",
+time: "15:20",
+history: "30 oktyabr, 2021"
+},
+
+{
+name: "Vilayət Eyvazovdan daha bir TƏYİNAT",
+id: 2,
+img: "img/xeber2.jpg",
+time: "22:10",
+history: "1 noyabr, 2021"
+},
+
+{
+name: "“Onlar guruldayırlar, amma yağmayacaqlar” – “Biz heç kimdən qorxmuruq!” Zərdüşt Əlizadə: “Azərbaycan ordusu öz sözünü deyib”",
+id: 3,
+img: "img/xeber1.jpg",
+time: "07:18",
+history: "6 noyabr, 2021"
+},
+
+{
+
+name: "Azərbaycanın Türkiyədəki səfirliyi Məhəmməd Əmin Rəsulzadənin məzarını ziyarət etdi",
+id: 1,
+img: "img/xeber3.jpg",
+time: "15:20",
+history: "30 oktyabr, 2021"
+},
+
+{
+name: "Vilayət Eyvazovdan daha bir TƏYİNAT",
+id: 2,
+img: "img/xeber2.jpg",
+time: "22:10",
+history: "1 noyabr, 2021"
+},
+
+{
+name: "“Onlar guruldayırlar, amma yağmayacaqlar” – “Biz heç kimdən qorxmuruq!” Zərdüşt Əlizadə: “Azərbaycan ordusu öz sözünü deyib”",
+id: 3,
+img: "img/xeber1.jpg",
+time: "07:18",
+history: "6 noyabr, 2021"
+},
+]
+
+let dataNew = [{
+        name: "Tanınmış şəxsiyyətlər M.Ə.Rəsulzadə haqqında - Nəsiman Yaqublunun araşdırması",
+        id: 1,
+        img: "img/xeber3.jpeg",
+        time: "15:20",
+        history: "30 oktyabr, 2021"
+    },
+
+    {
+        name: "Azərbaycan güləşçisi 8-ci dəfə Avropa çempionu olub.",
+        id: 2,
+        img: "img/xeber8.jpeg",
+        time: "22:10",
+        history: "1 noyabr, 2021"
+    },
+
+    {
+        name: "SON DƏQİQƏ Azərbaycan Ağdam rayonu üzrə mina xəritələri müqabilində 15 nəfər ermənini Ermənistana təhvil verilib.",
+        id: 3,
+        img: "img/xeber7.jpg",
+        time: "07:18",
+        history: "6 noyabr, 2021"
+    },
+
+    {
+        name: "Tanınmış şəxsiyyətlər M.Ə.Rəsulzadə haqqında - Nəsiman Yaqublunun araşdırması",
+        id: 1,
+        img: "img/xeber3.jpeg",
+        time: "15:20",
+        history: "30 oktyabr, 2021"
+    },
+
+    {
+        name: "Azərbaycan güləşçisi 8-ci dəfə Avropa çempionu olub.",
+        id: 2,
+        img: "img/xeber8.jpeg",
+        time: "22:10",
+        history: "1 noyabr, 2021"
+    },
+
+    {
+        name: "SON DƏQİQƏ Azərbaycan Ağdam rayonu üzrə mina xəritələri müqabilində 15 nəfər ermənini Ermənistana təhvil verilib.",
+        id: 3,
+        img: "img/xeber7.jpg",
+        time: "07:18",
+        history: "6 noyabr, 2021"
+    },
+]
+
